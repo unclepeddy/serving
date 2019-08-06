@@ -7,7 +7,7 @@ package(
 cc_library(
     name = 'custom_ops',
     deps = [
-        "@tensorflow_text//tensorflow_text:tensorflow_text_ops"
+	"@tensorflow_text//tensorflow_text:tensorflow_text_ops",
     ],
     alwayslink = 1
 )
