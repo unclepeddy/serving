@@ -54,7 +54,7 @@ def tf_serving_workspace():
     git_repository(
         name = "tensorflow_text",
         remote = "https://github.com/unclepeddy/text",
-        commit = "15d51cd6ceca5863f26c8030f4c81dfd85347d94",
+        commit = "fdbe5af15c694eb67aa3e8337a5d3c102b881dd1",
     )
 
     http_archive(
