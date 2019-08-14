@@ -51,12 +51,6 @@ def tf_serving_workspace():
     )
 
     # ===== tf.text kernels =====
-    git_repository(
-        name = "tensorflow_text",
-        remote = "https://github.com/unclepeddy/text",
-        commit = "fdbe5af15c694eb67aa3e8337a5d3c102b881dd1",
-    )
-
     http_archive(
 	    name = "icu_org",
 	    strip_prefix = "icu-release-64-2",
