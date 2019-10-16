@@ -37,6 +37,11 @@ http_archive(
 )
 # END: Upstream TensorFlow dependencies
 
+local_repository(
+    name = "tensorflow_text",
+    path = "/tensorflow-text"
+)
+
 # Please add all new TensorFlow Serving dependencies in workspace.bzl.
 load("//tensorflow_serving:workspace.bzl", "tf_serving_workspace")
 
